@@ -1,0 +1,42 @@
+﻿namespace WhatsAppMaster
+{
+    [System.Serializable]
+    public class RemoteConfig
+    {
+        public int active;
+        public string supportURL;
+        public string authCheckURL;
+        public string send;
+        public string mainPageProfileIcon;
+        public string messageArea;
+        public string banArea;
+        public string footerArea;
+        public string attachment;
+        public string attachmentDocument;
+        public string attachmentImage;
+        public string sendFile;
+        public string checkIfFileSent;
+        public string numberNotFound;
+        public int defaultSleep = 500;
+    }
+}
+
+/*
+ * {
+  "active": 1,
+  "supportURL": "www.esrefbektas.com",
+  "authCheckURL":"https://www.esrefbektas.com/WhatsAppRegistrar.php",
+  "send": "//*[@id=\"main\"]/footer/div[1]/div/span[2]/div/div[2]/div[2]/button",
+  "mainPageProfileIcon": "//*[@id=\"app\"]/div/div/div[4]/header/div[1]/div",
+  "messageArea": "//*[@id=\"main\"]/footer/div[1]/div/span[2]/div/div[2]/div[1]/div/div/p",
+  "banArea": "#main > footer > div",
+  "footerArea": "#main > footer",
+  "attachment": "//*[@id=\"main\"]/footer/div[1]/div/span[2]/div/div[1]/div/div/div/div/span",
+  "attachmentDocument": "//*[@id=\"main\"]/footer/div[1]/div/span[2]/div/div[1]/div/div/span/div/ul/div/div[1]/li/div/span",
+  "attachmentImage": "//*[@id=\"main\"]/footer/div[1]/div/span[2]/div/div[1]/div/div/span/div/ul/div/div[2]/li/div/span",
+  "sendFile": "//*[@id=\"app\"]/div/div/div[3]/div[2]/span/div/span/div/div/div[2]/div/div[2]/div[2]/div/div/span",
+  "checkIfFileSent": "#main > div > div > div  > div > div:last-child > div > div > div > div > div:nth-child(2) > div > span > svg",
+  "numberNotFound": "#app > div > span:nth-child(2) > div > span > div > div > div > div > div > div > div > button > div > div",
+  "defaultSleep": 3000
+}
+ * */
