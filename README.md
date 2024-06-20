@@ -24,3 +24,5 @@ Auth Screen:
 Flow Video:
 https://github.com/bektasesref/WhatsAppBulkMessageSender/assets/23198585/46c6ea8c-0641-46db-9231-c89a8b7403cd
 
+-----------
+python edition does not need php, sql nor any kind of a configuration. just fill listNumbers and listMessages arrays then hit the run button
